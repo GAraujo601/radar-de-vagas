@@ -1,10 +1,10 @@
 [
-  {"id":"ex-1","cargo":"Desenvolvedor(a) Full Stack","empresa":"Orbit Tech","habilidades":["javascript","react","node.js","typescript","sql","git","apis","docker"],"exemplo":true},
-  {"id":"ex-2","cargo":"Desenvolvedor(a) Front-end","empresa":"Studio Pixel","habilidades":["javascript","react","typescript","html","css","git"],"exemplo":true},
-  {"id":"ex-3","cargo":"Engenheiro(a) de Dados","empresa":"Dataflow","habilidades":["python","sql","aws","docker","git","apis"],"exemplo":true},
-  {"id":"ex-4","cargo":"Desenvolvedor(a) Back-end","empresa":"Nexo Digital","habilidades":["python","sql","docker","aws","git","apis"],"exemplo":true},
-  {"id":"ex-5","cargo":"Desenvolvedor(a) React","empresa":"Lumina Labs","habilidades":["javascript","react","typescript","html","css","git","apis"],"exemplo":true},
-  {"id":"ex-6","cargo":"Analista de Automação","empresa":"Fluxo Inteligente","habilidades":["python","javascript","n8n","apis","sql","prompt engineering"],"exemplo":true},
-  {"id":"ex-7","cargo":"Desenvolvedor(a) de Software","empresa":"Vértice Sistemas","habilidades":["javascript","react","typescript","node.js","sql","docker","git"],"exemplo":true},
-  {"id":"ex-8","cargo":"Engenheiro(a) de IA","empresa":"Nova AI","habilidades":["python","apis","docker","aws","git","gemini","prompt engineering"],"exemplo":true}
+  {"id":"ex-1","cargo":"Estágio em Desenvolvimento Web","empresa":"Orbit Tech","habilidades":["html","css","javascript","git"],"exemplo":true},
+  {"id":"ex-2","cargo":"Desenvolvedor(a) Front-end Júnior","empresa":"Studio Pixel","habilidades":["javascript","react","html","css","git"],"exemplo":true},
+  {"id":"ex-3","cargo":"Estágio em Análise de Dados","empresa":"Dataflow","habilidades":["python","sql","excel"],"exemplo":true},
+  {"id":"ex-4","cargo":"Desenvolvedor(a) Back-end Júnior","empresa":"Nexo Digital","habilidades":["python","sql","git","apis"],"exemplo":true},
+  {"id":"ex-5","cargo":"Aprendiz em Desenvolvimento (Apprenticeship)","empresa":"Lumina Labs","habilidades":["html","css","javascript","lógica de programação"],"exemplo":true},
+  {"id":"ex-6","cargo":"Estágio em Automação","empresa":"Fluxo Inteligente","habilidades":["python","excel","n8n"],"exemplo":true},
+  {"id":"ex-7","cargo":"Trainee em Desenvolvimento de Software","empresa":"Vértice Sistemas","habilidades":["javascript","sql","git","lógica de programação"],"exemplo":true},
+  {"id":"ex-8","cargo":"Jovem Aprendiz em Suporte de TI","empresa":"Nova AI","habilidades":["excel","windows","atendimento ao cliente"],"exemplo":true}
 ]

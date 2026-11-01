@@ -154,23 +154,23 @@
 }
 
 :root.light {
-  --background: #f7f9f8;
-  --foreground: #233a34;
+  --background: #f7f9fc;
+  --foreground: #24334b;
   --card: #ffffff;
-  --card-foreground: #233a34;
-  --primary: #247b5b;
+  --card-foreground: #24334b;
+  --primary: #1a73e8;
   --primary-foreground: #ffffff;
-  --secondary: #eaf4ee;
-  --secondary-foreground: #2b7657;
-  --muted: #f0f3f1;
-  --muted-foreground: #75817b;
-  --accent: #eaf4ee;
-  --accent-foreground: #226b4e;
-  --border: #e3e9e5;
-  --input: #dfe6e1;
-  --ring: #7cae96;
-  --chart-1: #3e9772;
-  --chart-2: #b2cbbd;
+  --secondary: #e8f0fe;
+  --secondary-foreground: #185abc;
+  --muted: #eef2f8;
+  --muted-foreground: #627086;
+  --accent: #e8f0fe;
+  --accent-foreground: #185abc;
+  --border: #e0e6ef;
+  --input: #d6dfed;
+  --ring: #4285f4;
+  --chart-1: #4285f4;
+  --chart-2: #aecbfa;
   --radius: 0.7rem;
 }
 body { font-family: Arial, Helvetica, sans-serif; }
@@ -183,24 +183,24 @@ body { font-family: Arial, Helvetica, sans-serif; }
 .tabs-row [data-slot=tabs-trigger][data-active] { color: var(--primary); }
 .tabs-row [data-slot=tabs-trigger]::after { background: var(--primary); bottom: -9px; }
 .tab-count { font-size: 10px; border-radius: 5px; padding: 1px 5px; background: var(--muted); }
-.example-alert { background: #edf5ef; border-color: #dce9df; color: #587260; padding-block: 13px; }
+.example-alert { background: var(--secondary); border-color: var(--border); color: var(--secondary-foreground); padding-block: 13px; }
 .example-alert [data-slot=alert-title] { font-size: 12px; }
-[data-slot=card] { --card-spacing: 24px; box-shadow: 0 2px 3px #19352802; }
+[data-slot=card] { --card-spacing: 24px; box-shadow: 0 2px 3px #24334b02; }
 [data-slot=card-description] { font-size: 12px; line-height: 1.6; }
 [data-slot=card-title] { font-size: 15px; font-weight: 600; }
 .stat-card { gap: 13px; }
 .stat-card [data-slot=card-header] { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
-.stat-icon { width: 17px; height: 17px; color: #8d9a92; }
+.stat-icon { width: 17px; height: 17px; color: var(--muted-foreground); }
 .stat-value { font-size: 34px; letter-spacing: -1.4px; line-height: 1; font-weight: 600; }
-.compatible-card { background: #f0f7f2; --card-foreground: var(--primary); }
+.compatible-card { background: #f0f5ff; --card-foreground: var(--primary); }
 .compatible-card .stat-icon { color: var(--primary); }
-.learning-note { display: flex; align-items: flex-start; gap: 10px; padding: 13px; border-radius: 8px; background: #f3f6f3; color: #708177; font-size: 12px; line-height: 1.65; }
-.learning-note strong { color: #4d6958; font-weight: 500; }
-[data-slot=table-head] { font-size: 11px; font-weight: 500; color: var(--muted-foreground); height: 42px; background: #f8faf8; }
+.learning-note { display: flex; align-items: flex-start; gap: 10px; padding: 13px; border-radius: 8px; background: var(--muted); color: var(--muted-foreground); font-size: 12px; line-height: 1.65; }
+.learning-note strong { color: var(--secondary-foreground); font-weight: 500; }
+[data-slot=table-head] { font-size: 11px; font-weight: 500; color: var(--muted-foreground); height: 42px; background: var(--background); }
 [data-slot=table-cell] { padding-block: 17px; font-size: 12px; }
 [data-slot=badge] { font-size: 10px; font-weight: 400; padding-inline: 7px; border-radius: 5px; }
-.company-avatar { display: grid; place-items: center; width: 23px; height: 23px; border: 1px solid var(--border); border-radius: 6px; background: var(--muted); color: #7b887d; font-size: 10px; }
-.skill-chip { display: flex; align-items: center; gap: 7px; padding: 7px 9px 7px 12px; border: 1px solid #dbe9df; background: var(--secondary); color: var(--secondary-foreground); border-radius: 7px; font-size: 13px; }
+.company-avatar { display: grid; place-items: center; width: 23px; height: 23px; border: 1px solid var(--border); border-radius: 6px; background: var(--muted); color: var(--muted-foreground); font-size: 10px; }
+.skill-chip { display: flex; align-items: center; gap: 7px; padding: 7px 9px 7px 12px; border: 1px solid var(--border); background: var(--secondary); color: var(--secondary-foreground); border-radius: 7px; font-size: 13px; }
 .feature-icon { display: grid; place-items: center; flex-shrink: 0; width: 38px; height: 38px; border-radius: 9px; background: var(--secondary); color: var(--primary); }
 @media (max-width: 640px) {
   .page-width { width: calc(100% - 32px); }
