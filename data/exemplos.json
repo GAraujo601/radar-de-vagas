@@ -1,0 +1,10 @@
+[
+  {"id":"ex-1","cargo":"Desenvolvedor(a) Full Stack","empresa":"Orbit Tech","habilidades":["javascript","react","node.js","typescript","sql","git","apis","docker"],"exemplo":true},
+  {"id":"ex-2","cargo":"Desenvolvedor(a) Front-end","empresa":"Studio Pixel","habilidades":["javascript","react","typescript","html","css","git"],"exemplo":true},
+  {"id":"ex-3","cargo":"Engenheiro(a) de Dados","empresa":"Dataflow","habilidades":["python","sql","aws","docker","git","apis"],"exemplo":true},
+  {"id":"ex-4","cargo":"Desenvolvedor(a) Back-end","empresa":"Nexo Digital","habilidades":["python","sql","docker","aws","git","apis"],"exemplo":true},
+  {"id":"ex-5","cargo":"Desenvolvedor(a) React","empresa":"Lumina Labs","habilidades":["javascript","react","typescript","html","css","git","apis"],"exemplo":true},
+  {"id":"ex-6","cargo":"Analista de Automação","empresa":"Fluxo Inteligente","habilidades":["python","javascript","n8n","apis","sql","prompt engineering"],"exemplo":true},
+  {"id":"ex-7","cargo":"Desenvolvedor(a) de Software","empresa":"Vértice Sistemas","habilidades":["javascript","react","typescript","node.js","sql","docker","git"],"exemplo":true},
+  {"id":"ex-8","cargo":"Engenheiro(a) de IA","empresa":"Nova AI","habilidades":["python","apis","docker","aws","git","gemini","prompt engineering"],"exemplo":true}
+]
